@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactNetCoreChat.API", "ReactNetCoreChat.API\ReactNetCoreChat.API.csproj", "{2BFB7B86-1B1F-4DEA-A265-90E2D4A6208F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ReactNetCoreChat.Front", "ReactNetCoreChat.Front\", "{F16F7089-7A36-4E3E-BE24-8D492FDADB18}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_65304"
+		Debug.AspNetCompiler.PhysicalPath = "ReactNetCoreChat.Front\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65304\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_65304"
+		Release.AspNetCompiler.PhysicalPath = "ReactNetCoreChat.Front\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65304\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "65304"
+		SlnRelativePath = "ReactNetCoreChat.Front\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BFB7B86-1B1F-4DEA-A265-90E2D4A6208F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFB7B86-1B1F-4DEA-A265-90E2D4A6208F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFB7B86-1B1F-4DEA-A265-90E2D4A6208F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFB7B86-1B1F-4DEA-A265-90E2D4A6208F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F16F7089-7A36-4E3E-BE24-8D492FDADB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16F7089-7A36-4E3E-BE24-8D492FDADB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16F7089-7A36-4E3E-BE24-8D492FDADB18}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16F7089-7A36-4E3E-BE24-8D492FDADB18}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E16ADE12-F7BF-4121-87BB-A716C348E659}
+	EndGlobalSection
+EndGlobal
